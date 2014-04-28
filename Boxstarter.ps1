@@ -4,7 +4,7 @@
 	Enable-RemoteDesktop
 	Install-WindowsUpdate -AcceptEula -SuppressReboots
 	#Set-ExplorerOptions -showHidenFilesFoldersDrives -showFileExtensions
-	Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar
+	Set-WindowsExplorerOptions -DisableShowHiddenFilesFoldersDrives -DisableShowProtectedOSFiles -DisableShowFileExtensions -EnableShowFullPathInTitleBar
 	Set-TaskbarSmall
 	Update-ExecutionPolicy Unrestricted
 
@@ -33,7 +33,7 @@
 	cinst notepadplusplus
 	cinst eclipse-standard-kepler
 	cinst Brackets
-	cinst markdownpad2
+	cinst haroopad
 
 ### version control system
 
@@ -41,10 +41,10 @@
 	cinst gitextensions
 	cinst SourceTree
 	cinst githubforwindows
-	cinst Devbox-GitFlow
 	cinst TortoiseGit
 	cinst svn
 	cinst tortoisesvn
+	cinst Devbox-GitFlow
 
 ### merge tool
 
@@ -87,7 +87,7 @@
 
 ### apache distribution
 
-	cinst XAMPP
+	cinst XAMPP.app
 
 ### utility
 
