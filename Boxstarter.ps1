@@ -17,6 +17,7 @@
 	cinst GoogleChrome.Canary
 	cinst Firefox
 	cinst Opera
+	cinst safari
 
 ### web debugging tool
 
@@ -78,6 +79,7 @@
 
 	cinst virtualbox
 	cinst vagrant
+	cinst genymotion
 
 ### image
 
