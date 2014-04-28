@@ -2,8 +2,9 @@
 
 	Disable-UAC
 	Enable-RemoteDesktop
-	Install-WindowsUpdate -AcceptEula
-	Set-ExplorerOptions -showHidenFilesFoldersDrives -showFileExtensions
+	Install-WindowsUpdate -AcceptEula -SuppressReboots
+	#Set-ExplorerOptions -showHidenFilesFoldersDrives -showFileExtensions
+	Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar
 	Set-TaskbarSmall
 	Update-ExecutionPolicy Unrestricted
 
