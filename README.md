@@ -25,8 +25,6 @@ BoxstarterShell
 START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/dkimura/boxstarter/master/Boxstarter.ps1
 ```
 
----
-
 ## Install APP
 
 ### Browser
